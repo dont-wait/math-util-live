@@ -18,6 +18,11 @@ public class MathUtilLive {
 
         System.out.println("expected: 0! = 1; actual: " + MathUtil.getFactorial(0));
 
+        //THÊM CODE SAU LẦN ĐẦU TIÊN LÀM CHUYỆN ẤY - CODE LÊN SERVER 1:44PM 28/01/2024
+        System.out.println("expected: 1! = 1; actual: " + MathUtil.getFactorial(1));
+        System.out.println("expected: 3! = 6; actual: " + MathUtil.getFactorial(3));
+
+        
         
         
         //MathUtil.getFactorial(-5); ném ngoại lệ thật, ai biểu đem cà chớn
