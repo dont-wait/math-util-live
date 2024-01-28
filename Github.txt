@@ -258,3 +258,17 @@ NGƯỜI KAHCS DO 2 NGƯỜI CÙNG SỬA 1 TẬP
 
 tdd
 ci
+
+  KHI MÀ MUỐN TẠO 1 REPO MỚI ĐỂ CHỨA CODE, HỜ EN TỜ AI, TÀI LIỆU KHÁC THÌ:
+  1. TẠO 1 REPO MỚI TRÙNG TÊN VỚI THƯ MỤC CHỨA TÀI LIỆU ĐÓ + git init để tạo file .init giúp quản lí code
+  2. DÙNG LỆNH ĐỂ CHUYỂN ĐỔI CÁI ORIGIN HIỆN TẠI ĐG LIÊN KẾT VỚI REPO CŨ
+	git remote add <Tên thư mục> <url> 						//đg khao khát đc up lên GitHub
+        muốn kiểm tra xem đường dẫn có đúng chưa thì dùng câu lệnh: git remote -v
+  3. Tới đây ta tạo main ảo để quản lí cx như là đẩy code lên từ đây
+	git branch -M main
+        git push -u origin main
+  4. Đẩy code như bth thoy:
+     thông qua 3 câu lệnh huyền thoại:
+	git add .
+        git commit -m " "
+        git push
